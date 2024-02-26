@@ -20,6 +20,12 @@ jobs:
     vmImage: $(MACOS_VM_IMAGE)
   steps:
     - template: templates/setup-dotnet.yml
+      parameters:
+        version: $(DOTNET_SDK_VERSION)
+
+    - template: templates/setup-xcode.yml
+      parameters:
+        version: $(XCODE_VERSION)
 
     - task: Bash@3
       displayName: Build iOS App
