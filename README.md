@@ -1,5 +1,5 @@
 # RSKImageCropper-xamarin-ios
-Port of RSKImageCropper iOS library for Xamarin / .NET6 / MAUI
+Port of RSKImageCropper iOS library for .NET8 / MAUI
 
 ## Installation
 *RSKImageCropper requires iOS 12.0 or later.*
