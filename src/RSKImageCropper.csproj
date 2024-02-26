@@ -5,7 +5,9 @@
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
     <NoBindingEmbedding>true</NoBindingEmbedding>
+    <SupportedOSPlatformVersion>12.0</SupportedOSPlatformVersion>
     
+    <!-- Assembly & NuGet Info -->
     <Title>RSKImageCropper for .NET on iOS</Title>
     <Description>An image cropper for iOS like in the Contacts app with support for landscape orientation.</Description>
     <Company>Softeq Development Corporation</Company>
@@ -28,6 +30,7 @@
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
+
   <ItemGroup>
     <NativeReference Include="..\native\RSKImageCropper.xcframework">
       <Kind>Static</Kind>
