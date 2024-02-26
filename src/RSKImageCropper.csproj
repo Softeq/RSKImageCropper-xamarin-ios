@@ -24,8 +24,8 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\Downloads\RSKImageCropper.xcframework">
-      <Kind>Framework</Kind>
+    <NativeReference Include="..\native\RSKImageCropper.xcframework">
+      <Kind>Static</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>
