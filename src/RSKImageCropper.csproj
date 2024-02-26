@@ -15,8 +15,8 @@
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.RSKImageCropper</PackageId>
     <PackageProjectUrl>https://github.com/Softeq/RSKImageCropper-xamarin-ios</PackageProjectUrl>
-    <PackageLicenseFile>..\LICENSE</PackageLicenseFile>
-    <PackageReadmeFile>..\README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
