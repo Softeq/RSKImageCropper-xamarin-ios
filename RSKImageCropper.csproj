@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+    <NoBindingEmbedding>true</NoBindingEmbedding>
+    
+    <Title>RSKImageCropper for .NET on iOS</Title>
+    <Description>An image cropper for iOS like in the Contacts app with support for landscape orientation.</Description>
+    <Company>Softeq Development Corporation</Company>
+    <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
+    <Version>4.0.0-beta</Version>
+    <Authors>Softeq Development Corp.</Authors>
+    <Owners>Softeq Development Corp.</Owners>
+    <PackageId>Softeq.RSKImageCropper</PackageId>
+    <!--<PackageProjectUrl>https://github.com/Softeq/IDMPhotoBrowser-xamarin-ios</PackageProjectUrl>-->
+    <!--<PackageLicenseFile>LICENSE</PackageLicenseFile>-->
+    <!--<PackageTags>ios;xamarin binding;softeq;library;keyboard;ui;scroll</PackageTags>-->
+    <!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
+    <!--<PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="..\..\Downloads\RSKImageCropper.xcframework">
+      <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+</Project>
