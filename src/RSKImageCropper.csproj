@@ -20,6 +20,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="../LICENSE" Visible="False" Pack="true" PackagePath="" />
+    <None Include="../README.md" Visible="False" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
