@@ -14,11 +14,9 @@
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.RSKImageCropper</PackageId>
-    <!--<PackageProjectUrl>https://github.com/Softeq/IDMPhotoBrowser-xamarin-ios</PackageProjectUrl>-->
-    <!--<PackageLicenseFile>LICENSE</PackageLicenseFile>-->
-    <!--<PackageTags>ios;xamarin binding;softeq;library;keyboard;ui;scroll</PackageTags>-->
-    <!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
-    <!--<PackageReleaseNotes>Migration to .NET8</PackageReleaseNotes>-->
+    <PackageProjectUrl>https://github.com/Softeq/RSKImageCropper-xamarin-ios</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
