@@ -1,0 +1,3 @@
+[submodule "native/RSKImageCropper"]
+	path = native/RSKImageCropper
+	url = https://github.com/ruslanskorb/RSKImageCropper.git
