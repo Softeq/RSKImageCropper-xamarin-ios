@@ -33,8 +33,9 @@
 
   <ItemGroup>
     <NativeReference Include="..\native\RSKImageCropper.xcframework">
-      <Kind>Static</Kind>
+      <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
+      <LinkerFlags>-ObjC</LinkerFlags>
     </NativeReference>
   </ItemGroup>
 </Project>
