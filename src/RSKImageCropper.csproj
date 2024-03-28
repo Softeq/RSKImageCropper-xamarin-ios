@@ -12,7 +12,7 @@
     <Description>An image cropper for iOS like in the Contacts app with support for landscape orientation.</Description>
     <Company>Softeq Development Corporation</Company>
     <Copyright>Copyright © 2024 Softeq Development Corporation</Copyright>
-    <Version>4.0.0-beta</Version>
+    <Version>4.0.0.1-beta</Version>
     <Authors>Softeq Development Corp.</Authors>
     <Owners>Softeq Development Corp.</Owners>
     <PackageId>Softeq.RSKImageCropper</PackageId>
