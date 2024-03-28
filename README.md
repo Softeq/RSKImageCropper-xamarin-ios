@@ -3,7 +3,7 @@
 Port of RSKImageCropper iOS library for .NET8 / MAUI
 
 [![Build Status](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_apis/build/status/RSKImageCropper%20iOS%20Library/RSKImageCropper-dev?branchName=main)](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_build/latest?definitionId=407&branchName=main)
-[![NuGet Badge](https://buildstats.info/nuget/Softeq.RSKImageCropper)](https://www.nuget.org/packages/Softeq.RSKImageCropper/)
+[![NuGet Badge](https://buildstats.info/nuget/Softeq.RSKImageCropper?includePreReleases=true)](https://www.nuget.org/packages/Softeq.RSKImageCropper/)
 
 ## Installation
 
